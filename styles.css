@@ -116,3 +116,11 @@ body {
   background: #333;
   color: #fff;
 }
+#swap-word {
+  background: linear-gradient(90deg, #ff7e5f, #feb47b); /* Example gradient colors */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.highlight-blue{
+  color: linear-gradient(to right, #6a11cb, #2575fc); /* Example gradient */
+}
