@@ -27,7 +27,8 @@
                 <span class="highlight-blue">Self-Reliant</span> from early age
             </h1>
             <p class="subtitle">We Provide Entrepreunrial Mentors </p>
-            <p class="subtitle">Don't get a French Tutor, get a business tutor </p>
+            <p class="subtitle" id="dynamic-text">Don't get a French tutor, get a <span id="swap-word">business</span>
+                tutor </p>
             <a href="#" class="cta-button">Book a Free Class</a>
         </div>
         <div class="hero-image">
@@ -38,7 +39,8 @@
     <!-- Trusted Logos -->
     <section class="trusted-logos">
         <div class="container">
-            <h2>Trusted by Parents from</h2>
+            <h2>Free e-book coming soon</h2>
+            <p>Sign up here</p>
             <div class="logos">
                 <img src="https://via.placeholder.com/100?text=Google" alt="Google">
                 <img src="https://via.placeholder.com/100?text=Microsoft" alt="Microsoft">
@@ -52,22 +54,22 @@
     <!-- Courses -->
     <section class="courses">
         <div class="container">
-            <h2>From Curious Minds to AI Futurists</h2>
+            <h2>From dependent to self-reliant</h2>
             <div class="course-cards">
                 <div class="card">
                     <h3>Foundation</h3>
                     <p><strong>6-9 years</strong></p>
-                    <p>Build a robot to perform basic tasks. Interactive games included!</p>
+                    <p>Enroll Now!</p>
                 </div>
                 <div class="card">
                     <h3>Advanced</h3>
                     <p><strong>9-12 years</strong></p>
-                    <p>Create an AI model to predict weather and publish apps.</p>
+                    <p>Join Waitlist</p>
                 </div>
                 <div class="card">
                     <h3>Pro</h3>
-                    <p><strong>12+ years</strong></p>
-                    <p>Develop data analysis systems and learn leadership in tech.</p>
+                    <p><strong>12-18 years</strong></p>
+                    <p>Join Waitlist</p>
                 </div>
             </div>
         </div>
@@ -79,6 +81,19 @@
             <p>© 2024 AI Academy. All Rights Reserved.</p>
         </div>
     </footer>
+
+    <script>
+        const words = ["creator", "founder"];
+        let index = 0;
+
+        setInterval(() => {
+            const swapElements = document.querySelectorAll('#swap-word');
+            swapElements.forEach(el => {
+                el.textContent = words[index % words.length];
+            });
+            index++;
+        }, 2000); // Change every 2 seconds
+    </script>
 </body>
 
 </html>
