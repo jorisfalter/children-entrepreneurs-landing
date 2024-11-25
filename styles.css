@@ -1,0 +1,118 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+  background: #5e42fc;
+  color: #fff;
+}
+.header .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.header .cta-button {
+  background: #ffcc00;
+  color: #000;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.hero {
+  text-align: center;
+  padding: 2rem 1rem;
+  background: #f9f9f9;
+  position: relative;
+}
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+.hero .highlight-blue {
+  color: #42a5f5;
+}
+.hero .highlight-orange {
+  color: #fbc02d;
+}
+.hero .highlight-purple {
+  color: #9c27b0;
+}
+.hero .subtitle {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+.hero .cta-button {
+  background: #ffcc00;
+  color: #000;
+  padding: 0.75rem 1.5rem;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.hero-image img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 1.5rem;
+}
+.trusted-logos {
+  text-align: center;
+  padding: 2rem 1rem;
+  background: #fff;
+}
+.trusted-logos h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+.trusted-logos .logos img {
+  margin: 0.5rem;
+  max-width: 100px;
+}
+.courses {
+  background: #f1f1f1;
+  padding: 2rem 1rem;
+}
+.courses h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 1.8rem;
+}
+.course-cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.card {
+  background: #fff;
+  padding: 1.5rem;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  flex: 1;
+}
+.card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+.card p {
+  font-size: 1rem;
+}
+.footer {
+  text-align: center;
+  padding: 1rem 0;
+  background: #333;
+  color: #fff;
+}
